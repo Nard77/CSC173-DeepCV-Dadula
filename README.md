@@ -1,7 +1,11 @@
 Project Title: Detecting Accidents and Crowd Events in CCTV Footage Using Deep Learning
+
 CSC173 Intelligent Systems Final Project
+
 Mindanao State University - Iligan Institute of Technology
+
 Student: Bernard Deone B. Dadula, 2022-3990
+
 Semester: AY 2025-2026 Sem 1
 
 
@@ -14,17 +18,27 @@ using basic preprocessing and augmentation to mitigate the small-data setting. W
 model fine-tuning, validation, and evaluation with metrics like accuracy, precision, recall, F1-score, and approximate inference time per clip.
 
 Table of Contents:
+
 Introduction
+
 Related Work
+
 Methodology
+
 Experiments & Results
+
 Discussion
+
 Ethical Considerations
+
 Conclusion
+
 Installation
+
 References
 
 Introduction
+
 Problem Statement:
   This project primarily addresses the challenges of automatically detecting dangerous events, such as accidents and abnormal crowd behavior like fights, panicked running, and stampedes,
 from live CCTV surveillance video in real time. Traditional monitoring heavily relies on human operators in which can easily miss some critical incidents due to fatigue, lack of sleep,
