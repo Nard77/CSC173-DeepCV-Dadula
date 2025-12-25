@@ -157,10 +157,18 @@ Misuse:
 - This project demonstrates a practical anomaly‑detection pipeline that fuses YOLOv8 object detection with temporal and rule‑based reasoning to identify events such as car crashes and stampedes in video. 
 
 ## Installation
-Clone repo: git clone https://github.com/yourusername/CSC173-DeepCV-YourLastName
-Install deps: pip install -r requirements.txt
-Download weights: See models/ or run download_weights.sh [web:22][web:25]
-requirements.txt: torch>=2.0 ultralytics opencv-python albumentations
+
+Clone repo: git clone https://github.com/yourusername/CSC173-DeepCV-Dadula
+
+Install deps:
+!pip install -q ultralytics opencv-python
+!pip install opencv-python tqdm
+
+
+Download weights: 
+models/yolov8n.pt
+models/cnn_lstm_anomaly.pth
+
 
 ## References
 [1] Sultani, W., Chen, C., & Shah, M. (2018, January 12). Real-world anomaly detection in surveillance videos. arXiv.org. https://arxiv.org/abs/1801.04264
